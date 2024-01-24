@@ -1,0 +1,123 @@
+{
+    "herbs": {
+        "0": { "name": "Achillea", "type": "herbs" },
+        "1": { "name": "Dryas" , "type": "herbs" },
+        "2": { "name": "Edera", "type": "herbs" },
+        "3": { "name": "Eufrasia", "type": "herbs" },
+        "4": { "name": "Ruta", "type": "herbs" },
+        "5": { "name": "Stramonio", "type": "herbs" },
+        "6": { "name": "Verato", "type": "herbs" },
+        "7": { "name": "Acalipha", "type": "herbs" },
+        "8": { "name": "Altea", "type": "herbs" },
+        "9": { "name": "Anice", "type": "herbs" },
+        "10": { "name": "Assenzio", "type": "herbs" },
+        "11": { "name": "Astonia", "type": "herbs" },
+        "12": { "name": "Cicuta", "type": "herbs" },
+        "13": { "name": "Dafne", "type": "herbs" },
+        "14": { "name": "Dulcamara", "type": "herbs" },
+        "15": { "name": "Ginepro", "type": "herbs" },
+        "16": { "name": "Gisquiamo", "type": "herbs" },
+        "17": { "name": "Kobak", "type": "herbs" },
+        "18": { "name": "Nepetella", "type": "herbs" },
+        "19": { "name": "Santoreggia", "type": "herbs" },
+        "20": { "name": "Tukrak", "type": "herbs" },
+        "21": { "name": "Valgarea" , "type": "herbs" },
+        "22": { "name": "Glandiflora", "type": "herbs" },
+        "23": { "name": "Valeriana", "type": "herbs" },
+        "24": { "name": "Artemisia", "type": "herbs" },
+        "25": { "name": "Loto Nero", "type": "herbs" }
+    },
+    "minerals": {
+        "100": {"name": "Ferro", "type": "minerals" },
+        "101": {"name": "Min Bianco", "type": "minerals" },
+        "102": {"name": "Min Giallo", "type": "minerals" },
+        "103": {"name": "Litio", "type": "minerals" },
+        "104": {"name": "Min Blu", "type": "minerals" },
+        "105": {"name": "Min Rosso", "type": "minerals" },
+        "106": {"name": "Zolfo", "type": "minerals" },
+        "107": {"name": "Piombo", "type": "minerals" },
+        "108": {"name": "Oro", "type": "minerals" },
+        "109": {"name": "Acciaio", "type": "minerals" },
+        "110": {"name": "Argento", "type": "minerals" },
+        "111": {"name": "Mythril", "type": "minerals" },
+        "112": {"name": "Oricalco", "type": "minerals" }
+    },
+    "composts": {
+        "200": {"name": "Composto di Adrenalina", "type": "composts" },
+        "201": {"name": "Composto inibitore", "type": "composts" }
+    },
+    "potions": {
+        "300": {"name": "Unguento Guaritore", "type": "potions" },
+        "301": {"name": "Antidoto alla Demenza", "type": "potions" },
+        "302": {"name": "Antidoto alla Paralisi", "type": "potions" },
+        "303": {"name": "Pozione di Sonno", "type": "potions" },
+        "304": {"name": "Antidoto al veleno nero", "type": "potions" },
+        "305": {"name": "Antidoto alla morte apparente", "type": "potions" },
+        "306": {"name": "Polvere esplosiva", "type": "potions" },
+        "307": {"name": "Pozione contro il Vampirismo", "type": "potions" },
+        "308": {"name": "Pozione di Guarigione", "type": "potions" },
+        "309": {"name": "Pozione di Sbalordire", "type": "potions" },
+        "310": {"name": "Pozione di Verità", "type": "potions" },
+        "311": {"name": "Pozione di Ringenerazione min", "type": "potions" },
+        "312": {"name": "Pozione d'amore", "type": "potions" },
+        "313": {"name": "Pozione di Forza", "type": "potions" },
+        "314": {"name": "Pozione di Ristorare", "type": "potions" },
+        "315": {"name": "Pozione di Rigenerazione", "type": "potions" },
+        "316": {"name": "Antidoto Supremo", "type": "potions" }
+    },
+    "poisons": {
+        "400": {"name": "Veleno d'Ipnosi", "type": "poisons" },
+        "401": {"name": "Veleno di Demenza", "type": "poisons" },
+        "402": {"name": "Veleno di Furia", "type": "poisons" },
+        "403": {"name": "Veleno di sguardo malefico", "type": "poisons" },
+        "404": {"name": "Veleno di Oblio", "type": "poisons" },
+        "405": {"name": "Veleno Nero", "type": "poisons" },
+        "406": {"name": "Veleno di Paralisi", "type": "poisons" },
+        "407": {"name": "Veleno di Morte apparente", "type": "poisons" },
+        "408": {"name": "Veleno  di Morte", "type": "poisons" }
+    },
+    "projectiles": {
+        "500": {"name": "Normale * 6", "type": "projectiles" },
+        "501": {"name": "Cerimonia * 4", "type": "projectiles" },
+        "502": {"name": "Perforante * 5", "type": "projectiles" },
+        "503": {"name": "Vibrante * 4", "type": "projectiles" },
+        "504": {"name": "Magico * 3", "type": "projectiles" },
+        "505": {"name": "Aster * 3", "type": "projectiles" }
+    },
+    "cities": [{
+        "name": "floren",
+        "displayName": "Floren",
+        "items": [
+            { "id": "0", "min_price": 1, "max_price": 1, "min_quantita":10, "max_quantita": 20 },
+            { "id": "100", "min_price": 2, "max_price": 3, "min_quantita":5, "max_quantita": 8 },
+            { "id": "200", "min_price": 2, "max_price": 3, "min_quantita":2, "max_quantita": 6 },
+            { "id": "305", "min_price": 10000, "max_price": 99999, "min_quantita":3, "max_quantita": 5 },
+            { "id": "301", "min_price": 10000, "max_price": 99999, "min_quantita":3, "max_quantita": 5 },
+            { "id": "303", "min_price": 10000, "max_price": 99999, "min_quantita":3, "max_quantita": 5 },
+            { "id": "302", "min_price": 10000, "max_price": 99999, "min_quantita":3, "max_quantita": 5 },
+            { "id": "403", "min_price": 2, "max_price": 3, "min_quantita":1, "max_quantita": 1 },
+            { "id": "501", "min_price": 2, "max_price": 3, "min_quantita":1, "max_quantita": 1 },
+            { "id": "18", "min_price": 2, "max_price": 3, "min_quantita":1, "max_quantita": 1 }
+        ]
+    },{
+        "name": "heria",
+        "displayName": "Heria",
+        "items": [
+            { "id": "1", "min_price": 1, "max_price": 9, "min_quantita":10, "max_quantita": 20 },
+            { "id": "3", "min_price": 10, "max_price": 99, "min_quantita":5, "max_quantita": 8 },
+            { "id": "8", "min_price": 100, "max_price": 999, "min_quantita":2, "max_quantita": 6 },
+            { "id": "18", "min_price": 1000, "max_price": 9999, "min_quantita":3, "max_quantita": 5 },
+            { "id": "19", "min_price": 10000, "max_price": 99999, "min_quantita":-2, "max_quantita": 1 }
+        ]
+    },{
+        "name": "stormdurf",
+        "displayName": "Stormdurf",
+        "items": [
+            { "id": "1", "min_price": 1, "max_price": 1, "min_quantita":10, "max_quantita": 20 },
+            { "id": "3", "min_price": 2, "max_price": 3, "min_quantita":5, "max_quantita": 8 },
+            { "id": "8", "min_price": 2, "max_price": 3, "min_quantita":2, "max_quantita": 6 },
+            { "id": "18", "min_price": 2, "max_price": 3, "min_quantita":3, "max_quantita": 5 },
+            { "id": "19", "min_price": 2, "max_price": 3, "min_quantita":-2, "max_quantita": 1 }
+        ]
+    }]
+}
